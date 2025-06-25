@@ -1,5 +1,4 @@
 # Chess.com-Clone
-# Chess.com-Clone
 
 Overview:-
 This project is a real-time multiplayer chess web app inspired by Chess.com, built with:
