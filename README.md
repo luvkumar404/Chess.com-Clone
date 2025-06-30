@@ -1,50 +1,37 @@
-# Chess.com-Clone
+# ♟️ Chess.com Clone
 
-Overview:-
-This project is a real-time multiplayer chess web app inspired by Chess.com, built with:
+A web-based multiplayer chess application inspired by [Chess.com](https://www.chess.com), built using Node.js, Express, EJS templating engine, and Socket.IO for real-time communication.
 
-chess.js for chess logic and move validation
+## 🚀 Features
 
-socket.io for real-time communication between players
+- ♟️ Real-time multiplayer chess board using **Socket.IO**
+- 🧠 Legal move validation
+- 🎮 Join/Create games via room codes
+- 💬 Basic in-game chat support
+- 🌐 Responsive UI using EJS and vanilla CSS
+- 📈 Game state synced across clients
 
-Express.js as the backend server framework
+## 📸 Screenshots
 
-EJS templating engine for rendering dynamic HTML views
+| Home Page | Game Board |
+|-----------|------------|
+| ![Home](./screenshots/home.png) | ![Game](./screenshots/game.png) |
 
-It allows two players to play chess online with real-time move synchronization and game state updates.
+## 🛠️ Tech Stack
 
-Features:-
-Real-time two-player chess game using WebSockets
+- **Frontend**: HTML, CSS, JavaScript, EJS
+- **Backend**: Node.js, Express
+- **WebSocket**: Socket.IO
+- **Templating**: EJS
+- **Chess Engine**: [chess.js](https://github.com/jhlywa/chess.js) (optional)
 
-Full chess rules and move validation via chess.js
+## 🧰 Installation
 
-Dynamic UI rendered using EJS templates
+1. **Clone the repo**
 
-Game state and move updates pushed instantly with socket.io
+   ```bash
+   git clone https://github.com/luvkumar404/Chess.com-Clone.git
+   cd chess-clone
 
-Check, checkmate, stalemate, and draw detection
-
-Room-based multiplayer support (multiple games simultaneously)
-
-Technologies Used:-
-chess.js — chess engine logic
-
-socket.io — real-time bidirectional event-based communication
-
-Express.js — web server framework
-
-EJS — embedded JavaScript templating for HTML views
-
-Node.js runtime
-
-Installation:-
-Clone the repository:- 
-git clone https://github.com/luvkumar404/Chess.com-Clone.git
-cd Chess.com-Clone
-npm install
-
-Start the server with nodemon for automatic reload on changes:-
-nodemon app.js
-
-Open your browser and go to:- 
-http://localhost:3000
+# Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
