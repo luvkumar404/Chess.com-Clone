@@ -6,16 +6,9 @@ A web-based multiplayer chess application inspired by [Chess.com](https://www.ch
 
 - ♟️ Real-time multiplayer chess board using **Socket.IO**
 - 🧠 Legal move validation
-- 🎮 Join/Create games via room codes
 - 💬 Basic in-game chat support
 - 🌐 Responsive UI using EJS and vanilla CSS
 - 📈 Game state synced across clients
-
-## 📸 Screenshots
-
-| Home Page | Game Board |
-|-----------|------------|
-| ![Home](./screenshots/home.png) | ![Game](./screenshots/game.png) |
 
 ## 🛠️ Tech Stack
 
